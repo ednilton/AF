@@ -1,9 +1,6 @@
-01/11/2015
-Projeto AgendaF�cil
-Autor: Edileizer
 
-Ferramentas:
-	Eclipse Mars 4.5.2
-	Tomcat 7
-	Hsqldb 2.3.2
-	JSF 2.1
+by Edileizer / Ednilton
+
+@todo: Informações sobre a configuração do Projeto de desenvolvimento no artefato Configuração/AF_PGC.
+
+
