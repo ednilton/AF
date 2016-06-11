@@ -1,0 +1,260 @@
+﻿SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, 
+UNIQUE_CHECKS=0;
+
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, 
+FOREIGN_KEY_CHECKS=0;
+
+SET @OLD_SQL_MODE=@@SQL_MODE, 
+SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
+
+
+
+CREATE SCHEMA IF NOT EXISTS `mydb` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
+
+
+USE `mydb` ;
+
+
+
+-- -----------------------------------------------------
+-- Table `mydb`.`TIPO_SERVICO`
+-- -----------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS `mydb`.`TIPO_SERVICO` 
+(
+  `PK_TSE_IDTSE` INT NOT NULL AUTO_INCREMENT,
+  
+`TSE_DESCRICAO` VARCHAR(50) NOT NULL,
+  
+PRIMARY KEY (`PK_TSE_IDTSE`))
+
+ENGINE = InnoDB;
+
+
+
+
+-- -----------------------------------------------------
+-- Table `mydb`.`CIDADE`
+-- -----------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS `mydb`.`CIDADE` 
+(
+  `PK_CID_IDCID` VARCHAR(100) NOT NULL,
+  
+PRIMARY KEY (`PK_CID_IDCID`))
+
+ENGINE = InnoDB;
+
+
+
+
+-- -----------------------------------------------------
+-- Table `mydb`.`ENDERECO`
+-- -----------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS `mydb`.`ENDERECO` 
+(
+  `PK_END_IDEND` INT NOT NULL AUTO_INCREMENT,
+  
+`END_DESCRICAO` VARCHAR(100) NULL,
+  
+`CIDADE_PK_CID_IDCID` VARCHAR(100) NOT NULL,
+  
+PRIMARY KEY (`PK_END_IDEND`, `CIDADE_PK_CID_IDCID`),
+  
+INDEX `fk_ENDERECO_CIDADE1_idx` (`CIDADE_PK_CID_IDCID` ASC),
+  
+CONSTRAINT `fk_ENDERECO_CIDADE1`
+    
+FOREIGN KEY (`CIDADE_PK_CID_IDCID`)
+    
+REFERENCES `mydb`.`CIDADE` (`PK_CID_IDCID`)
+    
+ON DELETE NO ACTION
+    
+ON UPDATE NO ACTION)
+
+ENGINE = InnoDB;
+
+
+
+
+-- -----------------------------------------------------
+-- Table `mydb`.`PESSOA`
+-- -----------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS `mydb`.`PESSOA` 
+(
+  `PK_PE_IDPE` INT NOT NULL AUTO_INCREMENT,
+  
+`PE_TIPO` VARCHAR(45) NULL,
+  
+`PE_NOME` VARCHAR(45) NULL,
+  
+`PE_SEXO` VARCHAR(1) NULL,
+  
+`PE_DATA_NASC` DATE NULL,
+  
+`PE_CPF` INT(11) NULL,
+  
+`PE_CNPJ` INT(14) NULL,
+  
+`PE_RG` INT NULL,
+  
+`PE_RAZAO_SOCIAL` VARCHAR(100) NULL,
+  
+`ENDERECO_FK_END_IDEND` INT NOT NULL,
+  
+PRIMARY KEY (`PK_PE_IDPE`),
+  
+INDEX `fk_PESSOA_ENDERECO1_idx` 
+(`ENDERECO_FK_END_IDEND` ASC),
+  
+CONSTRAINT `fk_PESSOA_ENDERECO1`
+    
+FOREIGN KEY (`ENDERECO_FK_END_IDEND`)
+    
+REFERENCES `mydb`.`ENDERECO` (`PK_END_IDEND`)
+    
+ON DELETE NO ACTION
+    
+ON UPDATE NO ACTION)
+
+ENGINE = InnoDB;
+
+
+
+
+-- -----------------------------------------------------
+-- Table `mydb`.`SERVIÇO`
+-- -----------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS `mydb`.`SERVIÇO` 
+(
+  `PK_SER_IDSER` INT NOT NULL AUTO_INCREMENT,
+  
+`SER_PRO_NOME` VARCHAR(100) NOT NULL,
+  
+`SER_CLI_NOME` VARCHAR(100) NULL,
+  
+`SER_DATA` DATE NULL,
+  
+`SER_HORARIO` TIME NULL,
+  
+`SER_DESC` INT NOT NULL,
+  
+`TPS_FK_TSE_IDTSE` INT NOT NULL,
+  
+`PES_FK_PROFISSIONAL` INT NOT NULL,
+  
+`PES_FK_ID_CLIENTE` INT NOT NULL,
+  
+PRIMARY KEY (`PK_SER_IDSER`),
+  
+INDEX `fk_SERVIÇO_TIPO_SERVICO1_idx` 
+(`TPS_FK_TSE_IDTSE` ASC),
+  
+INDEX `fk_SERVIÇO_PESSOA1_idx` 
+(`PES_FK_PROFISSIONAL` ASC),
+  
+INDEX `fk_SERVIÇO_PESSOA2_idx` (`PES_FK_ID_CLIENTE` ASC),
+  
+CONSTRAINT `fk_SERVIÇO_TIPO_SERVICO1`
+    
+FOREIGN KEY (`TPS_FK_TSE_IDTSE`)
+    
+REFERENCES `mydb`.`TIPO_SERVICO` (`PK_TSE_IDTSE`)
+    
+ON DELETE NO ACTION
+    
+ON UPDATE NO 
+CONSTRAINT `fk_SERVIÇO_PESSOA1`
+    
+FOREIGN KEY (`PES_FK_PROFISSIONAL`)
+    
+REFERENCES `mydb`.`PESSOA` (`PK_PE_IDPE`)
+    
+ON DELETE NO ACTION
+    
+ON UPDATE NO ACTION,
+  
+CONSTRAINT `fk_SERVIÇO_PESSOA2`
+    
+FOREIGN KEY (`PES_FK_ID_CLIENTE`)
+    
+REFERENCES `mydb`.`PESSOA` (`PK_PE_IDPE`)
+    
+ON DELETE NO ACTION
+    
+ON UPDATE NO ACTION)
+
+ENGINE = InnoDB;
+
+
+
+
+-- -----------------------------------------------------
+-- Table `mydb`.`TELEFONE`
+-- -----------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS `mydb`.`TELEFONE` 
+(
+  `PK_TEL_IDTEL` INT NOT NULL,
+  
+`TEL_TIPO` INT(2) NOT NULL,
+  
+`TEL_NUMERO` INT(11) NULL,
+  
+`PESSOA_PK_PE_IDPE` INT NOT NULL,
+  
+PRIMARY KEY (`PK_TEL_IDTEL`),
+  
+INDEX `fk_TELEFONE_PESSOA1_idx` (`PESSOA_PK_PE_IDPE` ASC),
+  
+CONSTRAINT `fk_TELEFONE_PESSOA1`
+    
+FOREIGN KEY (`PESSOA_PK_PE_IDPE`)
+    
+REFERENCES `mydb`.`PESSOA` (`PK_PE_IDPE`)
+    
+ON DELETE NO ACTION
+    
+ON UPDATE NO ACTION)
+
+ENGINE = InnoDB;
+
+
+
+
+-- -----------------------------------------------------
+-- Table `mydb`.`ESTADO`
+-- -----------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS `mydb`.`ESTADO` 
+(
+  `PK_UF_IDUF` VARCHAR(2) NOT NULL,
+  
+`CIDADE_PK_CID_IDCID` VARCHAR(100) NOT NULL,
+  
+PRIMARY KEY (`PK_UF_IDUF`, 
+`CIDADE_PK_CID_IDCID`),
+  
+INDEX `fk_ESTADO_CIDADE1_idx` (`CIDADE_PK_CID_IDCID` ASC),
+  
+CONSTRAINT `fk_ESTADO_CIDADE1`
+    
+FOREIGN KEY (`CIDADE_PK_CID_IDCID`)
+    
+REFERENCES `mydb`.`CIDADE` (`PK_CID_IDCID`)
+    
+ON DELETE NO ACTION
+    
+ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
