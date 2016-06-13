@@ -3,7 +3,7 @@
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor&quot; name=&quot;vwPrincipal.xhtml&quot; tooltip=&quot;AgendaFacil/WebContent/xhtml/vwPrincipal.xhtml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AgendaFacil/WebContent/xhtml/vwPrincipal.xhtml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;afBD.script&quot; tooltip=&quot;AgendaFacil/bd/afBD/afBD.script&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AgendaFacil/bd/afBD/afBD.script&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor&quot; name=&quot;afBD.properties&quot; tooltip=&quot;AgendaFacil/bd/afBD/afBD.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AgendaFacil/bd/afBD/afBD.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Agenda.java&quot; tooltip=&quot;AgendaFacil/src/br/pucgoias/af/entidade/Agenda.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AgendaFacil/src/br/pucgoias/af/entidade/Agenda.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PessoaService.java&quot; tooltip=&quot;ProjetoAgenda/src/br/pucgoias/agenda/negocio/PessoaService.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoAgenda/src/br/pucgoias/agenda/negocio/PessoaService.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AgendaService.java&quot; tooltip=&quot;AgendaFacil/src/br/pucgoias/af/negocio/AgendaService.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AgendaFacil/src/br/pucgoias/af/negocio/AgendaService.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;afBD.script&quot; tooltip=&quot;AgendaFacil/bd/agendaBD/afBD.script&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AgendaFacil/bd/agendaBD/afBD.script&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;run-manager.bat.sh&quot; tooltip=&quot;AgendaFacil/bd/run-manager.bat.sh&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AgendaFacil/bd/run-manager.bat.sh&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor&quot; name=&quot;agendaBD.properties&quot; tooltip=&quot;AgendaFacil/bd/agendaBD/agendaBD.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AgendaFacil/bd/agendaBD/agendaBD.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;agendaBD.log&quot; tooltip=&quot;AgendaFacil/bd/agendaBD/agendaBD.log&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AgendaFacil/bd/agendaBD/agendaBD.log&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;agendaBD.lck&quot; tooltip=&quot;AgendaFacil/bd/agendaBD/agendaBD.lck&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AgendaFacil/bd/agendaBD/agendaBD.lck&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;agendaBD.script&quot; tooltip=&quot;AgendaFacil/bd/agendaBD/agendaBD.script&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AgendaFacil/bd/agendaBD/agendaBD.script&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor&quot; name=&quot;falha.xhtml&quot; tooltip=&quot;AgendaFacil/WebContent/xhtml/falha.xhtml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AgendaFacil/WebContent/xhtml/falha.xhtml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor&quot; name=&quot;vwAlterarAgendamento.xhtml&quot; tooltip=&quot;AgendaFacil/WebContent/xhtml/vwAlterarAgendamento.xhtml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AgendaFacil/WebContent/xhtml/vwAlterarAgendamento.xhtml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_JYAjAikXEeaY1qZbkZPoMQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_J2t4QikXEeaY1qZbkZPoMQ" label="%trimmedwindow.label.eclipseSDK" x="-7" y="0" width="697" height="775">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_JYAjAikXEeaY1qZbkZPoMQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_J2t4QikXEeaY1qZbkZPoMQ" label="%trimmedwindow.label.eclipseSDK" x="-7" y="0" width="697" height="772">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -78,8 +78,9 @@
           <tags>persp.newWizSC:org.jboss.tools.cdi.ui.wizard.NewBeansXMLCreationWizard</tags>
           <tags>persp.showIn:org.jboss.tools.forge.ui.console</tags>
           <tags>persp.newWizSC:org.jboss.tools.ws.jaxrs.ui.wizard.jaxrsResourceCreationWizard</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_KgP9cSkXEeaY1qZbkZPoMQ" selectedElement="_KgP9dykXEeaY1qZbkZPoMQ" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_KgP9cSkXEeaY1qZbkZPoMQ" selectedElement="_KgP9cikXEeaY1qZbkZPoMQ" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_KgP9cikXEeaY1qZbkZPoMQ" elementId="topLeft" containerData="2500" selectedElement="_KgP9cykXEeaY1qZbkZPoMQ">
+              <tags>active</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_KgP9cykXEeaY1qZbkZPoMQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_Kf_ewCkXEeaY1qZbkZPoMQ"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_KgP9dCkXEeaY1qZbkZPoMQ" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_KgBT8CkXEeaY1qZbkZPoMQ"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_KgP9dSkXEeaY1qZbkZPoMQ" elementId="org.eclipse.jdt.ui.TypeHierarchy" toBeRendered="false" ref="_KgBT8SkXEeaY1qZbkZPoMQ"/>
@@ -143,14 +144,11 @@
       <children xsi:type="basic:PartStack" xmi:id="_Kfz4kSkXEeaY1qZbkZPoMQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_ldprwCtLEeaa8saWowdLdQ">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_ldprwCtLEeaa8saWowdLdQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="vwPrincipal.xhtml" iconURI="platform:/plugin/org.jboss.tools.jst.web.ui/images/xstudio/editors/html_file.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor&quot; name=&quot;vwPrincipal.xhtml&quot; partName=&quot;vwPrincipal.xhtml&quot; title=&quot;vwPrincipal.xhtml&quot; tooltip=&quot;AgendaFacil/WebContent/xhtml/vwPrincipal.xhtml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory&quot; path=&quot;/AgendaFacil/WebContent/xhtml/vwPrincipal.xhtml&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor</tags>
           <tags>removeOnHide</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
         </children>
       </children>
     </sharedElements>
@@ -158,6 +156,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1464911337819&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_KhLKgCkXEeaY1qZbkZPoMQ" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -316,7 +316,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_KUMecCkXEeaY1qZbkZPoMQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_FPHy8CtEEeaa8saWowdLdQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_JY4F0CkXEeaY1qZbkZPoMQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_AwoTsDD9EeaI5pEYnpN5gQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_JY4F0CkXEeaY1qZbkZPoMQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_KUMecSkXEeaY1qZbkZPoMQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -349,7 +349,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_KUNFgikXEeaY1qZbkZPoMQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_FPN5kCtEEeaa8saWowdLdQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_JY23rikXEeaY1qZbkZPoMQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Awr-EDD9EeaI5pEYnpN5gQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_JY23rikXEeaY1qZbkZPoMQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_KUNFgykXEeaY1qZbkZPoMQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>

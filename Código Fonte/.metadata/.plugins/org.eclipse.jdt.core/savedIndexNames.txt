@@ -44,9 +44,9 @@ INDEX VERSION 1.127+C:\Users\edile\Documents\AF_1.0_18.04.2016\Código Fonte\.met
 1150924423.index
 1707499659.index
 87714244.index
-765691241.index
-3509523518.index
 4280723705.index
+3509523518.index
+765691241.index
 2326646789.index
 510574143.index
 2324149168.index
@@ -73,11 +73,11 @@ INDEX VERSION 1.127+C:\Users\edile\Documents\AF_1.0_18.04.2016\Código Fonte\.met
 3877535684.index
 4107536636.index
 187813651.index
-1100985505.index
+3028820303.index
 1575615916.index
 3698463556.index
-3028820303.index
 226259754.index
+1100985505.index
 4130624540.index
 1878557766.index
 3234117647.index
@@ -127,5 +127,5 @@ INDEX VERSION 1.127+C:\Users\edile\Documents\AF_1.0_18.04.2016\Código Fonte\.met
 2359530306.index
 1792681138.index
 2002618148.index
-2449502736.index
 3313260681.index
+2449502736.index
