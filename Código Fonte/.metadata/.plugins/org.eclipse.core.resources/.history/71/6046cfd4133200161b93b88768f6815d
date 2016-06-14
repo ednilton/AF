@@ -173,4 +173,7 @@ public class Pessoa implements Serializable{
 		this.pesFuncao = pesFuncao;
 	}
 
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
 }

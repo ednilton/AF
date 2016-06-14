@@ -42,62 +42,38 @@ public class Servicos implements Serializable{
 	private String serDescricao;
 
 	@OneToMany(mappedBy="servico", fetch=FetchType.LAZY, cascade=CascadeType.ALL)
-	private List<TipoServico> listaTipoServico;
+	private List<TipoServico> listaTelefone;
 	
-	public List<TipoServico> getListaTipoServico() {
-		return listaTipoServico;
+	public List<Telefone> getListaTelefone() {
+		return listaTelefone;
 	}
 
-	public void setListaTipoServico(List<TipoServico> listaTipoServico) {
-		this.listaTipoServico = listaTipoServico;
+	public void setListaTelefone(List<Telefone> listaTelefone) {
+		this.listaTelefone = listaTelefone;
 	}
 
-	public Integer getSerId() {
-		return serId;
+	public Integer getIdPessoa() {
+		return idPessoa;
 	}
 
-	public void setSerId(Integer serId) {
-		this.serId = serId;
+	public void setIdPessoa(Integer idPessoa) {
+		this.idPessoa = idPessoa;
 	}
 
-	public String getProNome() {
-		return proNome;
+	public String getDsNome() {
+		return dsNome;
 	}
 
-	public void setProNome(String proNome) {
-		this.proNome = proNome;
+	public void setDsNome(String dsNome) {
+		this.dsNome = dsNome;
 	}
-
-	public String getData() {
-		return data;
-	}
-
-	public void setData(String data) {
-		this.data = data;
-	}
-
-	public String getHorario() {
-		return horario;
-	}
-
-	public void setHorario(String horario) {
-		this.horario = horario;
-	}
-
-	public String getSerDescricao() {
-		return serDescricao;
-	}
-
-	public void setSerDescricao(String serDescricao) {
-		this.serDescricao = serDescricao;
-	}
-
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result
-				+ ((serId == null) ? 0 : serId.hashCode());
+				+ ((idPessoa == null) ? 0 : idPessoa.hashCode());
 		return result;
 	}
 
@@ -110,12 +86,20 @@ public class Servicos implements Serializable{
 		if (getClass() != obj.getClass())
 			return false;
 		Servicos other = (Servicos) obj;
-		if (serId == null) {
-			if (other.serId != null)
+		if (idPessoa == null) {
+			if (other.idPessoa != null)
 				return false;
-		} else if (!serId.equals(other.serId))
+		} else if (!idPessoa.equals(other.idPessoa))
 			return false;
 		return true;
+	}
+
+	public void setVlIdade(String vlIdade) {
+		this.vlIdade = vlIdade;
+	}
+
+	public String getVlIdade() {
+		return vlIdade;
 	}
 
 }

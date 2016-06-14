@@ -70,7 +70,7 @@ public class Telefone implements Serializable {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result
-				+ ((telId == null) ? 0 : telId.hashCode());
+				+ ((idTelefone == null) ? 0 : idTelefone.hashCode());
 		return result;
 	}
 	@Override
@@ -82,12 +82,15 @@ public class Telefone implements Serializable {
 		if (getClass() != obj.getClass())
 			return false;
 		Telefone other = (Telefone) obj;
-		if (telId == null) {
-			if (other.telId != null)
+		if (idTelefone == null) {
+			if (other.idTelefone != null)
 				return false;
-		} else if (!telId.equals(other.telId))
+		} else if (!idTelefone.equals(other.idTelefone))
 			return false;
 		return true;
+	}
+	public void setClTipo(String clTipo) {
+		this.clTipo = clTipo;
 	}
 		
 }

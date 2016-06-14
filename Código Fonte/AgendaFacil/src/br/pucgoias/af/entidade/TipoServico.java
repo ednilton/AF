@@ -14,28 +14,28 @@ import javax.persistence.Table;
 
 /**
  * Classe que representa os dados persistentes de um telefone
- * @author Edileizer
+ * @author Gilcimar
  *
  */
 @Entity
 @Table(name="telefone")
-public class Telefone implements Serializable {
+public class TipoServico implements Serializable {
 	
 	private static final long serialVersionUID = 5152724164913423114L;
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="TEL_PK_ID")
-	private Integer telId;
+	@Column(name="idTelefone")
+	private Integer idTelefone;
 
-	@Column(name="TEL_TIPO")
-	private String telTipo;
+	@Column(name="dsNumero")
+	private String dsNumero;
 
-	@Column(name="TEL_NUMERO")
-	private String telNumero;
+	@Column(name="clTipo")
+	private String clTipo;
 	
 	@ManyToOne(fetch=FetchType.LAZY)
-	@JoinColumn(name="pesId", referencedColumnName="pesId", nullable=false)
+	@JoinColumn(name="idPessoa", referencedColumnName="idPessoa", nullable=false)
 	private Servicos pessoa;
 	
 	public Servicos getPessoa() {
@@ -44,33 +44,28 @@ public class Telefone implements Serializable {
 	public void setPessoa(Servicos pessoa) {
 		this.pessoa = pessoa;
 	}
-
+	public Integer getIdTelefone() {
+		return idTelefone;
+	}
+	public void setIdTelefone(Integer idTelefone) {
+		this.idTelefone = idTelefone;
+	}
+	public String getDsNumero() {
+		return dsNumero;
+	}
+	public void setDsNumero(String dsNumero) {
+		this.dsNumero = dsNumero;
+	}
+	public String getClTipo() {
+		return clTipo;
+	}
 	
-	public Integer getTelId() {
-		return telId;
-	}
-	public void setTelId(Integer telId) {
-		this.telId = telId;
-	}
-	public String getTelTipo() {
-		return telTipo;
-	}
-	public void setTelTipo(String telTipo) {
-		this.telTipo = telTipo;
-	}
-	public String getTelNumero() {
-		return telNumero;
-	}
-	public void setTelNumero(String telNumero) {
-		this.telNumero = telNumero;
-	}
-
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result
-				+ ((telId == null) ? 0 : telId.hashCode());
+				+ ((idTelefone == null) ? 0 : idTelefone.hashCode());
 		return result;
 	}
 	@Override
@@ -81,13 +76,16 @@ public class Telefone implements Serializable {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Telefone other = (Telefone) obj;
-		if (telId == null) {
-			if (other.telId != null)
+		TipoServico other = (TipoServico) obj;
+		if (idTelefone == null) {
+			if (other.idTelefone != null)
 				return false;
-		} else if (!telId.equals(other.telId))
+		} else if (!idTelefone.equals(other.idTelefone))
 			return false;
 		return true;
+	}
+	public void setClTipo(String clTipo) {
+		this.clTipo = clTipo;
 	}
 		
 }
