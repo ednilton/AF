@@ -36,12 +36,12 @@ public class Telefone implements Serializable {
 	
 	@ManyToOne(fetch=FetchType.LAZY)
 	@JoinColumn(name="idPessoa", referencedColumnName="idPessoa", nullable=false)
-	private Cliente pessoa;
+	private Servicos pessoa;
 	
-	public Cliente getPessoa() {
+	public Servicos getPessoa() {
 		return pessoa;
 	}
-	public void setPessoa(Cliente pessoa) {
+	public void setPessoa(Servicos pessoa) {
 		this.pessoa = pessoa;
 	}
 	public Integer getIdTelefone() {

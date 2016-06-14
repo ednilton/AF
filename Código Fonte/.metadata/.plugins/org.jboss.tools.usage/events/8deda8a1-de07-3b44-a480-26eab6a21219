@@ -1,0 +1,11 @@
+#Mon Jun 13 20:49:20 BRT 2016
+vl=How many times the 'Finish' button pressed during the day
+l=Wizard class name
+ct=jbt
+d=1465861760468
+c=0
+cmp=usage
+a=finishWizard
+cl=org.eclipse.compare.internal.patch.PatchWizard
+v=2.1.1
+s=1
