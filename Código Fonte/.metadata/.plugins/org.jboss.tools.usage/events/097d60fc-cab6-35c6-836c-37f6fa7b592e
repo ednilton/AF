@@ -1,0 +1,11 @@
+#Tue Jun 14 21:26:46 BRT 2016
+vl=0 \= failed, 1 \= successful
+l=Server Runtime ID
+ct=server
+d=1465950406118
+c=1
+cmp=server
+a=new
+cl=org.jboss.tools.livereload.serverType
+v=3.1.1
+s=0

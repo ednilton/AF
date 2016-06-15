@@ -20,10 +20,10 @@
 				<br/>
 				<h:outputLabel value="Telefone:" /> 
 				<h:inputText id="numero" value="#{pessoaController.telefoneBean.dsNumero}" size="15" maxlength="15"/>
-				<h:selectOneListbox size="1" value="#{pessoaController.telefoneBean.clTipo}">
-					<f:selectItem itemLabel="Comercial" itemValue="C" />
-					<f:selectItem itemLabel="Residencial" itemValue="R" />
-				</h:selectOneListbox>
+				<h:selectOneListbox size="1" value="#{pessoaController.telefoneBean.telTipo}">
+					<f:selectItem itemLabel="Fixo" itemValue="Tel" />
+					<f:selectItem itemLabel="Celular" itemValue="Cel" />
+				<f:selectItem itemLabel="Comercial" itemValue="Com"></f:selectItem></h:selectOneListbox>
 				<h:commandButton styleClass="button2" value="Adicionar" action="#{pessoaController.adicionarEditar}" onclick="return validarTelefone();"/>
 
 				<br/>

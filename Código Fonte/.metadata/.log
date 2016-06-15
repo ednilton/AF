@@ -7864,3 +7864,19 @@ java.lang.NumberFormatException: For input string: ""
 	at org.jboss.tools.central.internal.discovery.wizards.ProxyWizardManager.getProxyWizards(ProxyWizardManager.java:132)
 	at org.jboss.tools.central.editors.GettingStartedHtmlPage$5$2.run(GettingStartedHtmlPage.java:272)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY tern.eclipse.ide.core 4 0 2016-06-14 21:19:03.783
+!MESSAGE Cannot start node process.
+!STACK 0
+tern.TernException: Cannot start node process.
+	at tern.eclipse.ide.internal.core.resources.IDETernFileUploader$1.onError(IDETernFileUploader.java:133)
+	at tern.server.nodejs.NodejsTernServer.request(NodejsTernServer.java:131)
+	at tern.eclipse.ide.internal.core.resources.IDETernFileUploader.run(IDETernFileUploader.java:124)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: tern.server.nodejs.process.NodejsProcessException: Cannot start node process.
+	at tern.server.nodejs.process.AbstractNodejsProcess.waitOnStartNodejs(AbstractNodejsProcess.java:182)
+	at tern.server.nodejs.process.AbstractNodejsProcess.start(AbstractNodejsProcess.java:146)
+	at tern.server.nodejs.NodejsTernServer.getBaseURL(NodejsTernServer.java:202)
+	at tern.server.nodejs.NodejsTernServer.makeRequest(NodejsTernServer.java:139)
+	at tern.server.nodejs.NodejsTernServer.request(NodejsTernServer.java:127)
+	... 2 more
