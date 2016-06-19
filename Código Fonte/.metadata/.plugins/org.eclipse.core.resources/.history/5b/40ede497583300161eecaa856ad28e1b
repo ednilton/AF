@@ -1,0 +1,580 @@
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="pt-br"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="pt-br"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="pt-br"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="pt-br"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<script type="text/javascript" src="http://gc.kis.scr.kaspersky-labs.com/1B74BD89-2A22-4B93-B451-1C9E1052A0EC/main.js" charset="UTF-8"></script><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+<title>Cucco Agendamentos Online | Cadastre seu negócio</title>
+	<meta name="author" content="Cucco Agendamentos Online">
+	<meta name="description" content="Comece agora! Cadastre seu negócio, controle suas agendas e ofereça o agendamento online para seus cliente!" />
+	
+	<!-- Metadata -->
+	
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+	<meta name="DC.title" content="Cucco Agendamentos Online | Cadastre seu negócio">
+	<meta name="DC.identifier" content="http://www.cucco.com.br">
+	<meta name="DC.description" content="Comece agora! Cadastre seu negócio, controle suas agendas e ofereça o agendamento online para seus cliente!">
+	<meta name="DC.subject" content="agendamento online, agendamentos online, agendamento salão de beleza, agendamento estúdio de música, agendamento de aulas">
+	<meta name="DC.language" scheme="ISO639-1" content="pt-br">
+	<meta name="DC.creator" content="http://www.cucco.com.br">
+	<meta name="DC.contributor" content="http://www.falci.com.br">
+	<meta name="DC.type" scheme="DCMITYPE" content="http://purl.org/dc/dcmitype/Image">
+	<meta name="DC.type" scheme="DCMITYPE" content="http://purl.org/dc/dcmitype/Service">
+	<meta name="DC.type" scheme="DCMITYPE" content="http://purl.org/dc/dcmitype/Text">
+	<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+	<meta name="DCTERMS.created" scheme="ISO8601" content="2013-05-10">
+	<meta name="google-site-verification" content="G_UDvF2aWi4a0EdCT27bhMrnOF-ohq891ubhV4eUMuM" />
+	
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+	<!-- CSS
+  ================================================== -->
+  	<link rel="stylesheet" type="text/css" media="all" href="http://www.cucco.com.br/stylesheets/cuccoMin.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="http://www.cucco.com.br/stylesheets/jquery.bxslider.css" />
+  	<link rel="stylesheet" href="http://www.cucco.com.br/stylesheets/cuccoPrint.css" type="text/css" media="print" />
+  	
+  	<!-- FormFlow CSS come first -->
+<link href="http://www.cucco.com.br/stylesheets/default_form.css" media="screen" rel="stylesheet" type="text/css" />
+
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="http://www.cucco.com.br/images/favicon.ico">
+	<link rel="apple-touch-icon" href="http://www.cucco.com.br/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="http://www.cucco.com.br/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="http://www.cucco.com.br/images/apple-touch-icon-114x114.png">
+
+	<!-- Fonts
+	================================================== -->
+	<link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
+	
+	<!-- JS
+	================================================== -->
+	<script type="text/javascript" src="http://www.cucco.com.br/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="http://www.cucco.com.br/js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="http://www.cucco.com.br/js/cuccoMin.js"></script>
+
+
+
+</head>
+<body>
+
+
+
+        <!-- Primary Page Layout
+        ================================================== -->
+
+        <!-- Delete everything in this .container and get started on your own site! -->
+
+        <header class="top">
+            <div class="container">
+                <a href="http://www.cucco.com.br" class="logo"><img src="http://www.cucco.com.br/images/cucco.png" alt="Cucco Agendamentos Online" width="157" height="37"></a>
+                <nav>
+                    <ul>
+                        <li><a class="" href="http://www.cucco.com.br/como-funciona">Como funciona</a></li>
+                        <li><a class="" href="http://www.cucco.com.br/quem-usa">Quem usa o Cucco?</a></li>
+                        <li><a class="" href="http://www.cucco.com.br/planos-e-precos">Planos e preços</a></li>
+                         <li><a class="" href="http://www.cucco.com.br/blog">Blog</a></li>
+                        <li><a class="active" href="http://www.cucco.com.br/comece-agora">TESTE GRÁTIS</a></li>
+                    </ul>
+                    <div class="telefone">(31) 99975-7579 ou
+                         <a href="http://www.agende.cucco.com.br" target="_blank"><span style="color:blue">Agende aqui</span></a>
+                    </div>
+                </nav>
+
+            </div>
+        </header>
+<script type="text/javascript" src="http://www.cucco.com.br/js/controles.js"></script>
+<script type="text/javascript">
+$(function() {
+    $( document ).tooltip({
+		position: {my: "left+15 center", at: "right center"}
+	});
+  });
+</script>
+<section class="paginaInterna">
+    <header><h1 class="center">Cadastre seu negócio</h1></header>
+
+    <div class="container">
+        <div class="planosComplement">
+            <h2 class="small">O que é uma agenda?</h2>
+            <p>Pode ser uma profissional (ex: Maria) ou um espaço (ex: Sala de reunião).<br/> 7 colaboradores = 7 agendas</p>
+            <div class="setinha"></div>
+        </div>
+        <form class="cadastroPS" id="cadastroPS" action="http://cucco.cucco.com.br/AdduserTrial.php" method="Post">                       
+
+            <fieldset id="negocio"><legend>Informações do seu negócio</legend>
+
+                <div class="eight columns">
+                    <label for="urlPS">URL (endereço web) do seu negócio <span style="color:red">*</span></label><em class="small">(Somente letras minúsculas e números)</em>
+                    <input type="text" placeholder="nomeempresa" class="urlPS" id="urlPS" name="urlPS" required="true"  /><div class="complementoEndereco"> .cucco.com.br</div>
+                    <em class="error displayNone">Endereço já existe. Por favor escolha outro.</em>
+                </div>
+                <div class="four columns">
+                    <label for="nomePS">Nome do seu negócio <span style="color:red">*</span></label>
+                    <input type="text" id="nomePS" name="nomePS" required="true" />
+                </div>
+
+                <div class="four columns">
+                    <label for="categoria">Categoria do negócio <span style="color:red">*</span></label>
+                    <select id="categoria" name="categoria" required="true"></select>
+                </div>
+
+            </fieldset>
+
+            <fieldset id="plano"><legend>Escolha seu plano</legend>   
+
+                <div class="four columns">
+                    <label for="plano">Plano <span style="color:red">*</span></label>
+                    <select id="planos" name="plano" required="true">
+                        <option value="">Selecionar</option>
+                        <option value="plano1">Profissional (1 agenda)</option>
+                        <option value="plano2">Empresarial (até 10 agendas)</option>
+                        <option value="plano3">Corporativo (até 25 agendas)</option>
+                    </select>
+                </div>
+                <div class="four columns">
+                    <label for="codigoPromo">Código Promocional </label>
+                    <input type="text" id="codigoPromo" name="codigoPromo"/>
+                </div>
+
+            </fieldset>
+
+            <fieldset id="usuario"><legend>Informações do usuário administrador</legend>
+                <div id="cliente" class="cliente">
+                    <div class="four columns">
+                        <label for="emailUsuario">Seu email <span style="color:red">*</span></label>
+                        <input type="text" placeholder="email@empresa.com.br" id="emailUsuario" name="emailUsuario" required="true" />
+
+                    </div>
+                    <div id="containerinfo">
+                    <div class="four columns">     
+                        <label for="senhaUsuario" >Senha <span style="color:red">*</span></label>
+                        <input type="password" id="senhaUsuario" name="senhaUsuario" required="true"/>
+                    </div>
+
+                    <br class="clear" />
+
+                    <div class="four columns"> 
+                        <label for="nomeUsuario">Seu nome <span style="color:red">*</span></label>
+                        <input type="text" id="nomeUsuario" name="nomeUsuario" required="true" />
+                    </div>
+
+                    <div class="four columns"> 
+                        <label for="nascimentoUsuario"> Nascimento <span style="color:red">*</span></label>
+                        <input type="text" placeholder="XX/XX/XXXX" id="nascimentoUsuario" name="nascimentoUsuario" alt="Somente números" title="Somente números. Digite a data direto, sem barras. Ex: 21031980" required="true" />
+                    </div>  
+
+
+                    <br class="clear" />
+
+                    <div class="four columns"> 
+                        <label>Sexo <span style="color:red">*</span></label>
+                        <input type="radio" id="sexo" name="sexo" class="radio" value="F" checked="checked" /><label for="feminino" class="radioLabel"> Feminino</label>
+                        <input type="radio" id="sexo" name="sexo" class="radio" value="M" /><label for="masculino" class="radioLabel"> Masculino</label>
+                    </div>
+
+                    <div class="four columns"> 
+                        <label for="celularUsuario">Telefone contato <span style="color:red">*</span></label>
+                        <input type="text" placeholder="(XX) XXXX-XXXX" id="celularUsuario" name="celularUsuario" alt="somente numeros" title="Somente números e com DDD. Digite o telefone direto. Ex: 11999951234" required="true" maxlength="15" class="tooltip"/>
+                    </div> <!--id="celularUsuario" name="celularUsuario"--> 
+                    </div>
+                    <span id="resultado" class="error"></span><br/>
+
+                </div><!-- Final controle cliente --> 
+            </fieldset> 
+
+            <fieldset class="semBorda" ><legend class="legend">Termos de uso</legend>
+                <div class="eight columns">
+                    <textarea class="textarea" readonly="true">Termo de Acordo para assinatura de provimento de serviços do Cucco
+
+Prezado Prestador de Serviços, seja bem-vindo ao Cucco!
+	
+Leia com atenção todas as cláusulas deste Termo de Acordo de Assinatura e nossa Política de Privacidade, pois neles estão contidas todas as regras que regerão seu relacionamento com o Cucco, a partir do momento em que você confirmar sua adesão a ele. Trata-se de um contrato firmado entre você e o Cucco. Caso não concorde com os termos estabelecidos, você não deve aderir ao serviço aqui oferecido pelo Cucco, optando, assim, por não utilizá-lo.
+	
+	1.      Definições
+	
+	1.1.    Cucco: significa todo o conteúdo e funcionalidades disponíveis neste aplicativo através do nome de domínio na Internet “cucco.com.br”, doravante denominado  “Website”, “Nós” ou simplesmente “Cucco”.
+	1.2.    Serviços: significa qualquer dos serviços e software providos através do Website da Internet cucco.com.br (Cucco) ou a ele relacionados
+	1.3.    Prestador de serviços (PS): significa a pessoa natural ou jurídica, que se submeta a este Termo de Acordo, para que os agendamentos de seus serviços oferecidos possam ser feitos online pelos seus clientes, através do Cucco. O indivíduo que aceitar este Termo de Acordo, seja em seu nome ou em nome da pessoa jurídica que represente, garante que tem autoridade e poderes para responsabilizar a entidade a cumprir os termos e condições deste Termo de Acordo.
+	
+	2.      Criação da conta e responsabilidades
+	
+	2.1 Ao preencher o cadastro, você vai escolher um nome de login e senha de acesso. O Cucco poderá atribuir-lhe o nome e senha que você escolher ou rejeitar quaisquer de suas escolhas, se tiverem sido anteriormente atribuídas a outro PS ou se a nosso exclusivo critério, considerarmos tais dados ou informações ofensivas ou preconceituosas.
+	
+	2.2 Aos PS, sejam eles profissionais liberais, clínicas ou empresas, o Cucco irá disponibilizar subdomínios (ex: www.cucco.com.br/nomedaempresa) sob as condições aqui estabelecidas, com o único propósito de facilitar a localização do PS através da Internet por seus clientes. Não obstante, o Cucco mantém todos os direitos sobre qualquer Subdomínio e tem o direito de revogar ou suspender o uso dos mesmos a qualquer momento sem razão. Você concorda que todos os subdomínios são de propriedade do Cucco, são intransferíveis e que o Cucco pode, com fundamento nas cláusulas do item 6, encerrar ou suspender a sua conta, nome de usuário, senha e subdomínio, e remover ou descartar qualquer conteúdo associado à sua conta.
+	
+	2.3 O Cucco somente se responsabiliza pela confidencialidade da senha do PS nos limites de seu banco de dados. Caso a senha do PS venha a ser utilizada por terceiro, o Cucco irá continuar considerando que as atividades desenvolvidas na conta foram feitas pelo PS e são de sua responsabilidade, até que se comprove a violação. Por isso, é importante que o PS nos informe imediatamente da quebra de confidencialidade de sua senha e/ou qualquer uso não autorizado de sua conta.
+	
+	2.4 Ao oferecer um horário para agendamento no Website, o PS expressamente declara que aquele horário está livre e que pode atender o cliente neste período de tempo. Ocorrendo o agendamento, o PS se compromete a efetivamente atender o cliente e, caso isso não seja possível, o informe com antecedência. O PS reconhece que o Cucco não possui qualquer responsabilidade na relação com o cliente.
+	
+	2.5 O PS concorda expressamente que o Cucco não será responsável por quaisquer consequências ou danos diretos, indiretos, especiais, em que haja prejuízos materiais, perda de reputação, dados ou outras perdas intangíveis, mesmo que avisado previamente destas possibilidades.	
+		
+	3       Licença de uso e provimento dos Serviços
+	
+	3.1     O Cucco concede ao PS uma licença não exclusiva para usar os Serviços, condicionada à sua conformidade com os termos e condições estipulados neste Termo de Acordo.
+	
+	3.2     Nada neste Termo de Acordo ou em sua execução concederá a nenhuma das partes qualquer direito, título, participação ou licença a nomes, logomarcas, projetos, desenhos, imagens ou outras marcas registradas de uma ou de outra.
+	
+	3.3     CUCCO é marca registrada. Outras marcas registradas usadas neste Termo de Acordo ou nos Serviços são de propriedade de seus respectivos titulares.
+	
+	4       Restrições no uso dos Serviços pelo PS
+	
+	Os Serviços somente podem ser usados para propósitos lícitos. Ao usar os Serviços o PS concorda que não irá:
+	
+	4.1     Se envolver em atividades ilícitas de nenhum tipo, nem veicular qualquer serviço ilegal ou oferecer para venda itens submetidos à restrição ou proibição pela lei;
+	4.2     Gerar material que seja ofensivo, incluindo expressões que caracterizem fanatismo, preconceito de qualquer ordem, racismo, ódio, profanação ou postar qualquer conteúdo obsceno, lascivo, indecente, sexualmente explícito, violento, persecutório ou questionável;
+	4.3     Postar ou revelar qualquer informação privada relativa a ou que possa identificar menores de 18 anos sem consentimento expresso dos pais;
+	4.4     Introduzir vírus ou outros códigos prejudiciais no Website;
+	4.5     Incitar ou participar de qualquer atividade caluniosa, difamatória, escandalosa, ameaçadora ou importuna;
+	4.6     Postar qualquer conteúdo que advogue, promova ou incite violência contra quaisquer governos, organizações, grupos ou indivíduos ou prover instruções, informações ou assistência que cause ou provoque tal violência;
+	4.7     Veicular ou fornecer material falso, enganoso ou ilusório;
+	4.8     Divulgar conteúdos (conforme definido abaixo) que não tenham o devido consentimento por escrito e expresso de seus proprietários;
+	4.9     Interferir no desempenho dos Serviços ou corromper a integridade dos dados neles contidos. Não deverá também tentar obter acesso não autorizado aos Serviços, aos seus programas ou redes relacionados.
+	
+	O PS não poderá acessar os Serviços se for um concorrente direto do Cucco, exceto no caso de ter obtido deste o seu consentimento prévio por escrito. Não poderá também acessar os Serviços com propósitos de monitorar sua disponibilidade, desempenho, funcionalidade ou para realizar testes ou qualquer outro comparativo com finalidades competitivas.
+	
+	
+	5       Direitos de propriedade sobre o conteúdo do PS – Concessão de licença sobre o conteúdo do PS
+	
+	Sempre que o PS submeter, postar ou exibir qualquer material (incluindo texto, áudio, vídeo, fotos, imagens, gráficos, clips sonoros ou outros trabalhos de sua autoria (Conteúdo) no Website do Cucco, ele garante que:
+	
+	5.1     Como proprietário de todos os direitos sobre o Conteúdo por ele elaborado ou adquirido legalmente do proprietário original, ele cede ao Cucco todos os direitos relativos a tal Conteúdo;
+	5.2     Pagou ou pagará completamente todas as taxas e outras obrigações financeiras (se existirem) necessárias para postar o seu Conteúdo;
+	5.3     Obteve a permissão de cada pessoa que aparece, é ouvida ou mencionada em seu Conteúdo;
+	5.4     O seu Conteúdo não é difamatório e não infringe a propriedade intelectual, privacidade, publicidade ou qualquer outro direito legal ou moral de quaisquer terceiros.
+	
+	O PS é o titular de todos os direitos de propriedade intelectual referentes a qualquer Conteúdo veiculado no Website do Cucco. Todavia, ao submeter, enviar ou tornar disponíveis seus Conteúdos através do Cucco, ele concede o direito e licença não exclusivos de usá-los, reproduzi-los, distribuí-los, e publicamente exibi-los a nível mundial, isentos de royalties e transferíveis gratuitamente, em qualquer forma, mídia ou tecnologia atual ou ainda em desenvolvimento, em conexão com a nossa execução dos Serviços.
+	
+	6       Cancelamento da assinatura
+	
+	A assinatura para provimento dos serviços do Cucco, regida por este Termo de Acordo, é válida até que seja cancelada ou encerrada pelo PS ou pelo Cucco.
+	
+	6.1     O PS pode cancelar sua assinatura para provimento dos serviços do Cucco a qualquer momento, através de comunicação ao Cucco por e-mail (suporte@cucco.com.br). O encerramento se efetivará após verificação e acerto de possíveis pendências de pagamentos, consumando-se através do envio de e-mail de confirmação do cancelamento pelo Cucco para o PS. As taxas de assinatura pagas não são devolvidas.
+	6.2     A visibilidade do PS no Website, seu acesso aos Serviços e o acesso aos seus dados de negócio terminarão logo após o envio pelo Cucco do e-mail de confirmação do cancelamento solicitado pelo PS.
+	6.3     O Cucco pode cancelar a visibilidade do PS no Website caso ele não cumpra qualquer termo ou condição aqui estipulados ou previstos na nossa Política de Privacidade. O mesmo poderá ocorrer caso o PS deixe de efetuar os pagamentos pelos Serviços, conforme contratado com o Cucco. O Cucco também se reserva o direito de encerrar a oferta dos Serviços a qualquer momento nestas situações.
+	6.4     Em caso de cancelamento da assinatura pelo Cucco, o direito de acesso ou uso dos dados de negócio pelo PS cessa imediatamente e o Cucco não terá obrigação de manter ou encaminhar nenhum destes dados.
+	6.5     Depois do cancelamento, o Cucco pode continuar a se comunicar com o PS através de e-mail para informar novas funcionalidades e novidades nos Serviços ou outros assuntos relacionados.
+	
+	7       Preço e cobrança
+	
+	7.1     O preço da licença e o esquema de cobrança para o PS serão apresentados em uma agenda de preços disponível quando ele faz a assinatura.
+	
+	7.2     O Cucco se reserva o direito de alterar seu preço a qualquer momento com o aviso por escrito com antecedência de um mês ao PS. Este comunicado pode ser feito através de email.
+	
+	7.3     O PS deve fornecer ao Cucco ou seu agente designado os dados corretos do seu cartão de crédito ou débito como condição para assinar e passar a usar os Serviços oferecidos. O PS também se compromete a prover ao Cucco as informações completas e corretas para cobrança e contato. Estas informações incluem seu nome ou razão social, nome fantasia, endereço, e-mail, nome e telefone de um contato que seja responsável pelo pagamento. Em caso de alteração, o PS concorda em atualizar estas informações em no máximo 30 dias após sua ocorrência. Se as informações de contato fornecidas forem falsas ou fraudulentas o Cucco se reserva o direito de cancelar o seu acesso aos Serviços, além de poder acionar outras medidas legais.
+	
+	7.4 	A cobrança será recorrente, debitada diretamente do cartão de crédito do PS.
+	
+	8       Suporte
+	
+	Com o objetivo de manter a qualidade do Serviço prestado, o Cucco pode fornecer, a seu exclusivo critério, suporte técnico limitado ao PS. Isto não significa que o Cucco se compromete a sanar todo e qualquer defeito técnico que eventualmente possa surgir na prestação do Serviço, mas tão somente que buscará tentar fazê-lo da melhor maneira possível.
+	
+	9      Monitoramento, investigação e cumprimento da lei
+	
+	9.1    O Cucco pode investigar quaisquer reclamações ou violações reportadas deste Termo de Acordo. A seu exclusivo critério, o Cucco se reserva o direito de tomar qualquer uma das seguintes ações, conforme achar apropriado:
+	
+	•       Contatar o PS;
+	•       Suspender ou cancelar a conta do PS;
+	•       Paralisar qualquer transação de agendamento de horários;
+	•       Parar ou restringir o acesso ao Website ou conteúdo particular;
+	•       Remover qualquer conteúdo do Website que viole estes Termos.
+	
+	9.2    O Cucco ainda se reserva o direito de noticiar às autoridades competentes qualquer prática que supostamente viole conteúdo de lei ou outra regulamentação. A fim de cooperar com investigações, visando proteger nossos sistemas e usuários ou para assegurar a integridade e operação dos negócios e sistemas do Cucco, podemos acessar e revelar qualquer informação que considerarmos necessária ou apropriada, incluindo, mas não se limitando, aos detalhes do usuário de contato, endereços IP, informações de tráfego, histórico de uso e Conteúdo postado. O Cucco reportará condutas ilícitas e cooperará para garantir que os infratores sejam processados de acordo com os rigores da lei. O Cucco se reserva o direito, a seu exclusivo critério, de processar através da legislação civil ou penal quaisquer atividades ilegais envolvendo seu Website.
+	
+	
+	10      Garantias mútuas
+	
+	Cada parte, por meio deste Termo, declara e garante à outra parte que:
+	
+	10.1    Tem poder e autoridade de firmar este Acordo, em seu nome ou de outrem, e é legalmente habilitado para isso;
+	10.2    Cumprirá e respeitará todas as leis aplicáveis na execução das suas obrigações estabelecidas neste Acordo;
+	10.3    Não está sujeito a nenhum outro acordo que entre em conflito com sua capacidade de desempenhar suas obrigações relativas a este Acordo.
+	
+	11      Renúncia de garantias
+	
+	11.1    Você concorda que seu uso do Website será por sua conta e risco e que os serviços são providos da forma como apresentados e na disponibilidade possível.
+	
+	11.2    O Cucco não dá garantia sobre a acuracidade ou completeza do conteúdo do Website ou do conteúdo de quaisquer sites ligados a ele e não assume nenhuma responsabilidade por quaisquer (a) erros, enganos ou falhas no conteúdo, (b) perda pessoal ou dano de propriedade, de qualquer maneira que seja, resultante do seu acesso e uso do nosso Website, (c) qualquer acesso não autorizado ou uso dos nossos servidores seguros e/ou todas as informações pessoais e/ou informações financeiras armazenadas, (d) quaisquer bugs, vírus, cavalos de Tróia ou semelhantes, que podem ser transmitidos para ou através do nosso Website por terceiros e/ou (e) quaisquer erros ou omissões em qualquer conteúdo ou por qualquer perda ou dano de qualquer tipo incorrido como resultado do uso de qualquer conteúdo postado, enviado por e-mail, transmitido ou de outra forma disponibilizado através do Website.
+	
+	11.3    Nenhuma informação oral ou escrita ou opinião dada pelo Cucco, seus distribuidores, agentes ou empregados se constituem em uma garantia.
+	
+	11.4    O Cucco não terá responsabilidade se os Serviços forem alterados indevidamente de alguma forma ou por qualquer falha que surja por uso indevido dos Serviços.
+	
+	11.5    Os serviços podem estar sujeitos a limitações, atrasos e outros problemas inerentes ao uso da Internet e comunicações eletrônicas. O Cucco não se responsabiliza por quaisquer atrasos, falhas na entrega ou outros prejuízos provenientes destes tipos de problemas. O PS reconhece e concorda que é possível que nem todas as mensagens enviadas através do uso dos Serviços serão recebidas com sucesso pelos seus destinatários.
+	
+	12      Limitação de prejuízos e obrigações
+	
+	O Cucco e seus distribuidores não serão responsabilizados pelo PS ou outro terceiro por qualquer prejuízo indireto, especial, incidental, punitivo ou consequente (incluindo, mas não se limitado a, prejuízos pela inabilidade no uso de equipamentos ou acesso aos dados, perda de negócios, perda de lucros, interrupção nos negócios ou semelhantes), oriundo do uso ou inabilidade no uso dos serviços e baseado em qualquer teoria de responsabilidade incluindo ruptura de contrato, ruptura de garantia, dano (incluindo negligência), responsabilidade do produto ou outra, mesmo que o Cucco ou seus representantes tenham sido avisados da possibilidade de tais prejuízos e mesmo se um ajuste feito para remediar o problema tenha falhado em seu propósito essencial. A responsabilidade total do Cucco perante o PS por prejuízos, seja de que natureza for, será limitada ao valor pago pelo PS pelos Serviços que causaram tais prejuízos.
+	
+	13      Uso da marca Cucco e comunicações de Marketing
+	
+	13.1    O Cucco terá o direito de incluir sua marca ou slogans em relatórios de dados (impressos ou eletrônicos) gerados pelos Serviços.
+	13.2     O Cucco pode incluir sua própria logomarca, bem como propaganda do Cucco, seus parceiros ou do Website cucco.com.br ou qualquer site sucessor dele, em qualquer interface dos Serviços, inclusive aquelas interfaces que os clientes do PS usam e em qualquer das mensagens de e-mail providas pelo aplicativo;
+
+
+	13.3     O PS reconhece e concorda que, como um resultado do uso dos nossos Serviços ao aceitar agendamentos online, o seu negócio pode ser automaticamente listado no Website cucco.com.br ou qualquer site que o suceder, podendo aparecer também em listas de serviços ou prestadores de serviços que usam nossos Serviços;
+	13.4     Se o PS não usar os Serviços para aceitar agendamentos online ele não será listado no Website cucco.com.br ou qualquer outro site que o suceda;
+	13.5    O PS concorda que o Cucco pode revelar o fato de que ele é seu cliente e que pode ser listado no Website cucco.com.br;
+	13.6     Para cada mensagem de email enviada em conexão com os Serviços o PS reconhece e concorda que o Cucco pode adicionar no seu rodapé os dizeres “Provido pelo Cucco” ou uma mensagem similar, que ao ser clicada conduza a uma página da Web definida pelo Cucco.
+	
+	14      Direitos relativos aos dados e conversão
+	
+	14.1    O Cucco não garante a precisão ou completeza de qualquer conversão ou importação de dados que o PS fornecer a ele.
+	14.2     O Cucco não pode ser responsabilizado pela deleção, correção, destruição, dano, perda ou falha na armazenagem de quaisquer dados relativos ao negócio do PS;
+	14.3     O Cucco tem o direito de usar para legítimos propósitos de negócio todos os dados e informações coletadas que estejam em conexão com este Termo de Acordo;
+	14.4     O uso pelo Cucco dos dados e informações obtidos através dos usuários do Website que buscam serviços do PS está sujeito aos termos da política de privacidade do Cucco que estiver em efeito durante a vigência deste Acordo.
+	
+	15      Proibição de Spam
+	
+	15.1    Ao usar os Serviços o PS reafirma e garante que todas as pessoas constantes em qualquer lista de distribuição que ele importar para dentro dos Serviços com intenção de envio de e-mails a elas são pessoas com quem ele mantém um relacionamento comercial ligado ao seu negócio.
+	15.2     O PS concorda que não usará os Serviços para enviar qualquer mensagem comercial por e-mail para qualquer pessoa que tenha manifestado a intenção de não querer receber este tipo de mensagens dele;
+	15.3     O PS concorda que usará os Serviços somente em conformidade com este Acordo e todas as leis aplicáveis (incluindo, mas não limitadas, às políticas e leis relacionadas a envio de spam, privacidade, obscenidade ou difamação). Além disso, caso estes itens sejam desrespeitados, o PS concorda em indenizar o Cucco por todos os danos, penalidades e despesas advocatícias incidentes nesta situação.
+	
+	16      Indenizações
+	
+	O PS indenizará o Cucco e todos os seus respectivos diretores, membros, acionistas, agentes e empregados de toda e qualquer Demanda. “Demanda” significa qualquer ação, causa de ação, processo, reclamação ou demanda de qualquer Terceiro (e todos os julgamentos resultantes, penalidades, prejuízos, perdas, responsabilidades, custos e despesas (incluindo taxas e custos razoáveis sem limitação de advogados), que surgirem devido a: (a) quebra deste Termo de Acordo, (b) condução do negócio do PS, (c) qualquer ato de negligência ou omissão do PS ou (d) qualquer demanda que surja ou esteja relacionada a este Termo de Acordo. O Cucco pode, às suas próprias expensas, contratar um advogado para assessorar e participar da defesa de qualquer Demanda.
+	
+	17      Desistência
+	
+	O PS poderá desistir deste contrato no prazo máximo de 07 (sete) dias a contar da data de sua aceitação, sem o pagamento de qualquer valor, desde que nenhum agendamento de cliente tenha sido efetuado junto ao mesmo.
+	
+	18      Generalidades
+	
+	18.1    O PS não pode sub-licenciar, designar ou transferir este Termo de Acordo, no todo ou em parte, sem o consentimento por escrito do Cucco. Qualquer tentativa de sub-licenciar, designar ou transferir qualquer dos direitos, taxas ou obrigações inclusas não produzirá efeitos e implicará no cancelamento automático desta licença.
+	18.2    Se quaisquer das cláusulas deste Acordo estiverem em desacordo com a lei aplicável, elas serão abandonadas ou aditivadas na extensão necessária para que o Acordo torne-se executável;
+	18.3    A parte vencedora em qualquer ação judicial relacionada a este Acordo será reembolsada em suas despesas, incluindo custos processuais e honorários advocatícios, além de outros direitos e mitigações que ela possa ter;
+	18.4     O PS e o Cucco são contratantes independentes, um em relação ao outro, e nada neste Acordo será interpretado como sendo criação de uma agência, joint venture ou outro tipo de parceria, ou mesmo de existência de vínculo empregatício entre as partes;
+	18.5    Este Acordo tem o objetivo de beneficiar as partes e será executável somente por elas. Este Acordo não tem a intenção de conferir nenhum direito ou benefício a qualquer Terceiro.
+	18.6     Caso o PS tenha qualquer dúvida relativa a este Acordo deverá contatar o Cucco através do e-mail contato@cucco.com.br.
+	18.7    O Cucco tem o direito de atualizar ou mudar este Acordo a qualquer momento e por qualquer razão. O Cucco enviará um e-mail a todos os PS informando sobre as mudanças específicas neste Acordo pelo menos 30 dias antes que estas mudanças tenham efeito. O PS é responsável por atualizar suas informações de contato na sua conta para manter seu e-mail corrente e funcional. Caso o último endereço de e-mail fornecido pelo PS seja inválido ou esteja desatualizado e a mensagem acima não chegue ao seu destinatário, o próprio retorno do e-mail com informações da impossibilidade de entrega ao destinatário constituirá efetiva mostra de que por parte do Cucco a mudança foi notificada ao PS. O Cucco pode também notificar o PS sobre atualizações ou mudanças neste Acordo quando o PS acessar sua conta no Website. Depois de notificado sobre as mudanças no Acordo, o PS pode cancelá-lo, conforme descrito no item 6 acima. O não cancelamento indica que o PS concorda com a revisão do Acordo.
+	18.8    Estes Termos de Acordo de Assinatura, junto com a Política de Privacidade e outras notas legais publicadas pelo Cucco no Website constituem um contrato entre você e o Cucco, no que se refere ao Website. Qualquer um dos itens providos por estes Termos de Acordo que seja considerado inválido por alguma instância judicial não afetará a validade dos itens restantes, que permanecerão com força e efeito legais.
+	18.9   Você e o Cucco concordam e elegem o foro da comarca de Belo Horizonte, Minas Gerais, Brasil, como sendo o competente para dirimir quaisquer dúvidas ou lides que possam surgir da interpretação e/ou aplicação destes Termos de Uso, com renúncia a quaisquer outros, por mais privilegiados que possam parecer.
+	
+	
+	Termos de uso para cadastro de usuário                                
+	        
+	1.   Objetivo e aceitação dos Termos de Uso
+	
+	1.1     Ao nos referirmos ao Cucco neste documento estamos designando todo o conteúdo e funcionalidades disponíveis neste aplicativo através do nome de domínio na Internet “cucco.com.br”, doravante denominado  “Website”, “Nós” ou simplesmente “Cucco”. Para melhor caracterizar as partes envolvidas nestes Termos de Uso, nos referiremos ao usuário deste serviço como “Você”.
+	
+	1.2     Estes Termos de Uso estabelecem as regras para que os serviços prestados pelo Cucco sejam utilizados por você e o nível de comprometimento que existirá entre as partes envolvidas.
+	
+	1.3     Ao usar este Website e clicar “Eu aceito” quando esta opção for solicitada, significa que você concorda e aceita expressamente, tanto estes Termos de Uso quanto a Política de Privacidade do Cucco, também disponibilizada neste Website. Trata-se de um contrato firmado entre você e o Cucco. Se você não concordar com alguma cláusula, regra ou qualquer outro dispositivo estabelecido por este documento, incluindo a Política de Privacidade, não deverá utilizar os serviços disponibilizados no Website. A continuidade da utilização implicará em aceitação expressa destes Termos de Uso por você.
+	
+	1.4     Embora nós possamos tentar notificá-lo quando alterações significativas forem feitas nestes Termos de Uso, você deve periodicamente revisar a versão mais atualizada disponibilizada no Website. O Cucco pode, a seu critério, modificar ou revisar estes termos e políticas a qualquer momento e você concorda em se sujeitar a tais modificações ou revisões através do seu uso contínuo do Website.
+	
+	2.      Sobre o Website e seu funcionamento
+	
+	2.1 O Website existe para facilitar o agendamento de horários entre você e prestadores de serviços (pessoas físicas e jurídicas), que publicam via Internet os horários disponíveis de seus serviços e outros eventos. O Website também permite cancelar ou remarcar agendamentos.
+	
+	2.2 O Website compreende todo o conteúdo nele veiculado e todos os bens relativos à empresa Cucco, incluindo, mas não se limitando, à sua marca, nome e logotipo e a todos os seus produtos, softwares e serviços, oferecidos ou não através do seu website.
+	
+	2.3 De maneira geral pretende-se manter o Website disponível 24 horas por dia, 7 dias por semana. Porém, ele poderá não ficar disponível durante manutenções, piques de energia elétrica, queda de servidores e também por outras razões alheias à nossa previsibilidade e controle. Desta forma, o Cucco não pode garantir disponibilidade total do Website a qualquer usuário.
+	
+	2.4 Embora o Website intencione prover as disponibilidades de horários dos prestadores de serviços em tempo real, é possível que aconteça um conflito de agendamentos e/ou que o prestador de serviços tenha que fazer a reprogramação da sua reserva de horário feita. A criação de uma reserva de horário usando o Website não é uma garantia de que o prestador de serviços manterá a reserva conforme agendado por você.
+	
+	3.      Criação de conta e responsabilidades
+	
+	3.1 Para agendar horários no Website você deve criar uma conta de usuário. Ao criar sua conta de usuário no Website você declara, ao mesmo tempo e ciente das penalidades legais, que suas informações fornecidas são verdadeiras e corretas e que você as atualizará prontamente, caso elas se modifiquem. O não provimento correto destas informações é considerado quebra destes Termos de Uso e eventualmente poderá vir a ser considerado crime de falsidade ideológica (artigo 299 do Código Penal) pelas autoridades.
+	
+	3.2 O Cucco somente se responsabiliza pela confidencialidade da senha nos limites de seu banco de dados. Caso sua senha venha a ser utilizada por terceiro, o Cucco irá continuar considerando que as atividades desenvolvidas na sua conta foram feitas por você e são de sua responsabilidade, até que se comprove a violação. Por isso, é importante que você informe-nos imediatamente a quebra de confidencialidade de sua senha e/ou qualquer uso não autorizado de sua conta.
+	
+	3.3 Ao agendar um horário no Website você se compromete tanto em comparecer de acordo com a reserva feita quanto em cancelar sua reserva, caso não possa comparecer, de acordo com a política de cancelamento do prestador de serviços. Você assume que não marcará compromissos que não pretenda cumprir através do Website e se responsabiliza por eventuais prejuízos que o prestador de serviços tiver.
+	
+	3.4 Você concorda que não usará o Website para fazer-se passar por outra pessoa ou agendar horários em nome de outro indivíduo. Você também nunca pode usar a conta de outra pessoa sem a permissão dela, sob pena de incorrer na prática dos crimes de falsidade.
+	
+	3.5 Você concorda em não divulgar ou distribuir, através de nenhum meio, quaisquer imagens, desenhos, gráficos, tabelas, textos, símbolos, logomarcas ou qualquer outro conteúdo do Website, sem a permissão prévia por escrito do Cucco.
+	
+	3.6 Você concorda em não alterar ou excluir qualquer parte do Website.
+	
+	3.7 Você concorda em não acessar nenhum conteúdo do Website através de qualquer tecnologia ou meio que não os que sejam autorizados e providos pelo Cucco.
+	
+	3.8 Você concorda em não usar o Website para quaisquer fins comerciais, sem a prévia autorização por escrito do Cucco. Usos comerciais proibidos incluem quaisquer das seguintes ações tomadas sem a aprovação expressa do Cucco:
+	•       Venda de acesso ao Website ou seus serviços relacionados em outro website;
+	•       Uso do Website ou seus serviços relacionados com o objetivo primário de obter propaganda ou receitas com assinaturas;
+	•       Publicidade, no Website ou qualquer website de terceiros, orientada para o conteúdo do Cucco;
+	•       Uso do Website ou seus serviços relacionados buscando competir ou desviar o mercado do Cucco;
+	•       Aliciamento, para fins comerciais, de quaisquer usuários do Website.
+	
+	3.9 No uso do Website, você agirá em conformidade com os termos e condições destes Termos de Uso e com todas as leis e regulamentações nacionais e internacionais aplicáveis. Você concorda também em não:
+	•       Acessar ou tentar acessar qualquer serviço ou área do Website que você não estiver autorizado a usar;
+	•       Exercer engenharia reversa em qualquer parte do Website ou fazer qualquer coisa que possa revelar o código fonte ou violar medidas empregadas para evitar ou limitar o acesso a qualquer área, conteúdo ou código do Website;
+	•       Enviar ao Website códigos maldosos, ilegais ou prejudiciais, tais como vírus, “spyware”, “adware” ou outro código que possa interferir no funcionamento do site;
+	•       Fazer qualquer coisa que possa impor uma carga significativa na infraestrutura do Website ou então interferir com a operação normal do Website.
+	
+	4.      Relação com websites de Terceiros
+	
+	O Website Cucco pode conter links para websites de terceiros que não sejam de propriedade ou controle do Cucco. O Cucco não tem controle e não assume responsabilidade pelo conteúdo, políticas de privacidade ou práticas de qualquer um destes websites. Além disso, o Cucco não pode e não fará censura e nem editará o conteúdo de nenhum destes websites. Ao usar o nosso Website você expressamente isenta o Cucco de todas as responsabilidades do uso que você fizer de qualquer website de terceiros. Recomendamos que você fique atento quando sair do Cucco para algum outro Webite e leia seus termos e políticas de privacidade ao acessá-lo.
+	
+	5.      Comunicações entre as partes envolvidas
+	
+	5.1 Quando você cria um agendamento no Website está entrando em um relacionamento de negócio com o respectivo prestador de serviços. Você concorda que, como um resultado deste relacionamento, o prestador de serviços pode contatá-lo via e-mail ou outros meios, para confirmar detalhes da reserva feita, notificá-lo sobre cancelamentos de reservas, reprogramar sua reserva ou comunicar outras informações relevantes.
+	
+	5.2 Visando mantê-lo sempre bem informado, o Cucco pode enviar e-mails com comunicações relevantes com relação à sua reserva (lembretes, cancelamento, etc). Você concorda que estas comunicações por e-mail não constituem “e-mails não solicitados” e, como tal, não estão sujeitos aos termos da política de cancelamento de assinatura do Website. Você também concorda que pode não receber estas mensagens eventualmente, devido a erros do servidor, problemas de tráfego da Internet, filtros de e-mail ou quaisquer outras circunstâncias. Falhas no recebimento ou na leitura de uma mensagem sobre uma reserva não o isentam de maneira alguma de cumprir suas responsabilidades com o prestador de serviço (comparecimento no horário agendado ou cancelamento da reserva, de acordo com a política de cancelamentos do prestador de serviços).
+	
+	5.3 Você fica ciente de que os prestadores de serviços com os quais você faz reservas de horários através do Website podem lhe enviar e-mails de negócios não necessariamente ligados às reservas.
+	
+	6.      Propriedade do Conteúdo do Website e Marcas
+	
+	6.1 O conteúdo do Website (“Conteúdo”) e as marcas e logomarcas incluídas no Website (“Marcas”) são propriedades do Cucco, sujeitos à Lei 9.279/96 (Lei de propriedade industrial), Lei 9.610/98 (Lei de Direitos Autorais) e demais normas internacionais ligadas à propriedade intelectual. O conteúdo do Website é provido para você conforme implementado na Internet, para conter suas informações e para seu uso pessoal somente. Não pode ser baixado, copiado, reproduzido, distribuído, transmitido, exibido, vendido, licenciado ou explorado de outras formas para quaisquer outros propósitos sem o consentimento prévio por escrito dos seus proprietários.
+	
+	6.2 Você concorda em não usar, copiar ou distribuir qualquer parte do Conteúdo, a não ser conforme expressamente permitido por estes Termos de Uso. O uso, cópia ou distribuição do Conteúdo com fins comerciais é proibido. Você não pode copiar, distribuir, alterar, mesclar, adaptar ou traduzir o Website. Não poderá também modificar o Website ou criar trabalhos derivativos baseados no Website, além de não poder vender, alugar, fazer leasing ou sublicenciar o Website.
+	
+	6.3 Você concorda em não burlar, desabilitar ou interferir nas implementações de segurança do Website ou implementações que previnam ou restrinjam o uso ou cópia de qualquer parte do Conteúdo ou que imponham limitações no uso do Website ou de seu Conteúdo.
+	
+	7.      Política de cancelamento de conta e acesso do usuário
+	
+	O Cucco pode cancelar um acesso de usuário ao seu Website e pode também cancelar uma conta de usuário, caso seja identificado que o usuário violou estes Termos de Uso.
+	
+	8.      Ressalvas sobre Garantia
+	
+	8.1 Você concorda que seu uso do Website será por sua conta e risco e que os serviços são providos da forma como apresentados e na disponibilidade possível.
+	
+	8.2 O Cucco não dá garantia sobre a acuracidade ou completeza do conteúdo do Website ou do conteúdo de quaisquer sites ligados a ele e não assume nenhuma responsabilidade por quaisquer (a) erros, enganos ou falhas no conteúdo, (b) perda pessoal ou dano de propriedade, de qualquer maneira que seja, resultante do seu acesso e uso do nosso Website, (c) qualquer acesso não autorizado ou uso dos nossos servidores seguros e/ou todas as informações pessoais e/ou informações financeiras armazenadas, (d) quaisquer bugs, vírus, cavalos de Tróia ou semelhantes, que podem ser transmitidos para ou através do nosso Website por terceiros e/ou (e) quaisquer erros ou omissões em qualquer conteúdo ou por qualquer perda ou dano de qualquer tipo incorrido como resultado do uso de qualquer conteúdo postado, enviado por e-mail, transmitido ou de outra forma disponibilizado através do Website.
+	
+	8.3 O Cucco não garante, não endossa, nem assume responsabilidade por qualquer produto ou serviço divulgado ou oferecido por terceiros através do Website ou qualquer site “linkado” a ele ou exibido em qualquer banner ou outro tipo de propaganda.
+	
+	8.4 O Cucco não será parceiro nem de modo algum responsável por monitorar qualquer transação entre você e prestadores de serviços e produtos. Como na compra de um produto ou serviço através de qualquer meio ou em qualquer ambiente, você deve usar o seu bom senso e ter cautela quando apropriado.
+	
+	8.5 O Cucco se reserva o direito de mudar, descontinuar, restringir ou bloquear o acesso a qualquer parte do Website a qualquer momento.
+	
+	8.6 O Cucco não é responsável por prover suporte técnico ao usuário, acerto de erros de programas, documentação ou qualquer outro suporte do Website.
+	
+	9.      Indenização
+	
+	Você concorda em defender, indenizar e proteger o Cucco e seus agentes, diretores e funcionários contra quaisquer reclamações, danos, obrigações, perdas, responsabilidades, custos ou débitos e despesas (incluindo, mas não limitado, taxas de advogados), que surgirem a partir de: (a) seu uso e acesso ao Website; (b) sua violação de qualquer termo destes Termos de Uso; (c) sua violação de qualquer direito de terceiros, incluindo qualquer propriedade de copyright, propriedade ou direito de privacidade. Esta obrigação de defesa e indenização sobreviverá a estes Termos de Uso e ao seu uso do Website.
+	
+	10.     Gerais
+	
+	10.1 Estes Termos de Uso, junto com a Política de Privacidade e outras notas legais publicadas pelo Cucco no Website constituem um acordo entre você e o Cucco, no que se refere ao Website. Qualquer um dos itens providos por estes Termos de Uso que seja considerado inválido por alguma instância judicial não afetará a validade dos itens restantes destes Termos de Uso, que permanecerão com força e efeito legais.
+	
+	10.2 Você e o Cucco concordam e elegem o foro da comarca de Belo Horizonte, Minas Gerais, Brasil, como sendo o competente para dirimir quaisquer dúvidas ou lides que possam surgir da interpretação e/ou aplicação destes Termos de Uso, com renúncia a quaisquer outros, por mais privilegiados que possam parecer.</textarea>
+                </div>
+
+                <br class="clear" />
+
+                <div class="center">
+                    <input type="checkbox" id="confirma" name="confirma" class="radio" /><label for="aceite" class="aceite radioLabel"> Eu aceito os termos acima</label>
+                    <button class="startNow startNowOfereca" type="submit" id="envia">Cadastrar</button>
+                </div><br/>
+            </fieldset>
+
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+			<div class="container">
+				<section class="three columns">
+					<div>
+						<h3>Produto</h3>
+						<ul>
+							<li><a href="http://www.cucco.com.br/">Página inicial</a></li>
+							<li><a href="http://www.cucco.com.br/como-funciona">Como funciona</a></li>
+							<li><a href="http://www.cucco.com.br/quem-usa">Quem usa</a></li>
+							<li><a href="http://www.cucco.com.br/planos-e-precos">Planos e preços</a></li>
+						</ul>
+					</div>
+				</section>
+				<section class="three columns">
+					<div>
+						<h3>Sobre</h3>
+						<ul>
+							<li><a href="http://www.cucco.com.br/quem-somos">Quem somos</a></li>
+							<li><a href="http://www.cucco.com.br/perguntas-frequentes">Perguntas frequentes</a></li>
+							<li><a href="http://www.cucco.com.br/politicas-de-privacidade">Políticas de privacidade</a></li>
+							<li><a href="http://www.cucco.com.br/mapa-do-site">Mapa do site</a></li>
+						</ul>
+					</div>
+				</section>
+				<section class="three columns">
+					<div>
+						<h3>Outros</h3>
+						<ul>
+							<li><a href="http://www.cucco.com.br/blog">Blog</a></li>
+							<li><a href="http://www.cucco.com.br/quem-somos">Trabalhe conosco</a></li>
+							<li><a href="http://www.cucco.com.br/parceiros">Programa de parceria</a></li>
+							<li><a href="http://www.cucco.com.br/press-release">Press Release</a></li>
+						</ul>
+					</div>
+				</section>
+					
+				<section class="four columns rodapeColumn"><br/>
+					<p>O Cucco possibilita fazer agendamentos através da internet de forma inteligente.</p><p><a href="http://www.sanpedrovalley.org" style="color:gray;" target="_blank">We <span style="color:red">♥</span> SanPedroValley</a></p><a href="https://mixpanel.com/f/partner" target="_blank"><img src="//cdn.mxpnl.com/site_media/images/partner/badge_light.png" alt="Mobile Analytics" /></a>
+				</section>	
+				<section class="three columns rodapeColumn">
+					<h3>Comunidade</h3>
+					<ul>
+						<li><a href="http://facebook.com/cucconahora/" target="_blank" class="socialFooter facebook_16"></a><a href="http://facebook.com/cucconahora/" target="_blank">Facebook</a></li>
+						<li><a href="http://twitter.com/cucconahora/" target="_blank" class="socialFooter twitter_16"></a><a href="http://twitter.com/cucconahora/" target="_blank">Twitter</a></a></li>
+						<li><a href="http://www.linkedin.com/company/cucco/" target="_blank" class="socialFooter linkedin_16"></a><a href="http://www.linkedin.com/company/cucco/" target="_blank">Linkedin</a></li>
+						<li><a href="http://www.youtube.com/user/cucconahora/" target="_blank" class="socialFooter youtube_16"></a><a href="http://www.youtube.com/user/cucconahora/" target="_blank">YouTube</a></li>
+					</ul>
+				</section>
+			</div>
+		
+			<div class="rodapeFinal">&copy; 2015-2025 Cucco - Todos direitos reservados</div>	
+		
+		</footer>
+
+<script type='text/javascript'>var p='AUVZ0RW5GaKJFbZpXTWJVU';var e = (('https:' == document.location.protocol) ? 'https://' : 'http://');document.write(unescape('%3Cscript src=\'' + e + 'app.conversionratebooster.com/core/s.js\' type=\'text/javascript\'%3E%3C/script%3E'));</script>
+<!-- End Document
+================================================== -->
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0012/6704.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+<!--Start of Zopim Live Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+$.src='//v2.zopim.com/?1DwMrjE8CIFabaiioJCljlBa5I6Y4S4a';z.t=+new Date;$.
+type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+</script>
+
+<!-- google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25480134-1']);
+  _gaq.push(['_setDomainName', 'cucco.com.br']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+mixpanel.init("84560cdd60f78577ea0d9d61ed29dc29");</script><!-- end Mixpanel -->
+
+<script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","bam.nr-data.net","4e742446c0","1564700","b1EANRBRV0BWVU1ZCVYbNxMLH1pcWlNaVUtZUw0TAx9QXVNTQR4WUEQ=",0,5,new Date().getTime(),"","","","",""]);</script>
+</body>
+</html>

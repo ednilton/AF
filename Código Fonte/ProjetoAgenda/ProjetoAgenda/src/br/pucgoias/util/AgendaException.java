@@ -2,7 +2,7 @@ package br.pucgoias.util;
 
 /**
  * Classe que encapsula as excecoes da aplicacao Agenda
- * @author Gilcimar
+ * @author Ednilton
  *
  */
 public class AgendaException extends Exception {
