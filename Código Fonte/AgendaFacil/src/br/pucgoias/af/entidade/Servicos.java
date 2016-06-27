@@ -32,6 +32,9 @@ public class Servicos implements Serializable{
 	@Column(name="SER_PRO_NOME")
 	private String proNome;
 
+	@Column(name="SER_CLI_NOME")
+	private String cliNome;
+	
 	@Column(name="SER_DATA")
 	private String data;
 	
@@ -66,6 +69,14 @@ public class Servicos implements Serializable{
 
 	public void setProNome(String proNome) {
 		this.proNome = proNome;
+	}
+	
+	public String getCliNome() {
+		return cliNome;
+	}
+
+	public void setCliNome(String cliNome) {
+		this.cliNome = cliNome;
 	}
 
 	public String getData() {

@@ -10,6 +10,8 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
@@ -67,6 +69,20 @@ public class Pessoa implements Serializable{
 		this.listaTelefone = listaTelefone;
 	}
 
+	@OneToMany(mappedBy="pessoa", fetch=FetchType.LAZY, cascade=CascadeType.ALL)
+	private List<Servicos> listaServico;
+	
+	public List<Servicos> getListaServico() {
+		return listaServico;
+	}
+
+	public void setListaServico(List<Servicos> listaServico) {
+		this.listaServico = listaServico;
+	}
+	
+	@ManyToOne(fetch=FetchType.LAZY)
+	@JoinColumn(name="enderecoId", referencedColumnName="END_PK_ID", nullable=false)
+	
 	public Integer getPesId() {
 		return pesId;
 	}

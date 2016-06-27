@@ -13,59 +13,43 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 /**
- * Classe que representa os dados persistentes de um telefone
- * @author Gilcimar
+ * Classe que representa os dados persistentes de um tipo de servico
+ * @author Edileizer
  *
  */
 @Entity
-@Table(name="telefone")
+@Table(name="tipoServico")
 public class TipoServico implements Serializable {
 	
 	private static final long serialVersionUID = 5152724164913423114L;
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="idTelefone")
-	private Integer idTelefone;
+	@Column(name="TSE_PK_ID")
+	private Integer tipoServicoId;
 
-	@Column(name="dsNumero")
-	private String dsNumero;
+	@Column(name="TSE_DESCRICAO")
+	private String tseDescricao;
+	
+	public Integer getTipoServicoId() {
+		return tipoServicoId;
+	}
+	public void setTipoTelefoneId(Integer tipoServicoId) {
+		this.tipoServicoId = tipoServicoId;
+	}
+	public String getTseDescricao() {
+		return tseDescricao;
+	}
+	public void setTseDescricao(String tseDescricao) {
+		this.tseDescricao = tseDescricao;
+	}
 
-	@Column(name="clTipo")
-	private String clTipo;
-	
-	@ManyToOne(fetch=FetchType.LAZY)
-	@JoinColumn(name="idPessoa", referencedColumnName="idPessoa", nullable=false)
-	private Servicos pessoa;
-	
-	public Servicos getPessoa() {
-		return pessoa;
-	}
-	public void setPessoa(Servicos pessoa) {
-		this.pessoa = pessoa;
-	}
-	public Integer getIdTelefone() {
-		return idTelefone;
-	}
-	public void setIdTelefone(Integer idTelefone) {
-		this.idTelefone = idTelefone;
-	}
-	public String getDsNumero() {
-		return dsNumero;
-	}
-	public void setDsNumero(String dsNumero) {
-		this.dsNumero = dsNumero;
-	}
-	public String getClTipo() {
-		return clTipo;
-	}
-	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result
-				+ ((idTelefone == null) ? 0 : idTelefone.hashCode());
+				+ ((tipoServicoId == null) ? 0 : tipoServicoId.hashCode());
 		return result;
 	}
 	@Override
@@ -77,15 +61,11 @@ public class TipoServico implements Serializable {
 		if (getClass() != obj.getClass())
 			return false;
 		TipoServico other = (TipoServico) obj;
-		if (idTelefone == null) {
-			if (other.idTelefone != null)
+		if (tipoServicoId == null) {
+			if (other.tipoServicoId != null)
 				return false;
-		} else if (!idTelefone.equals(other.idTelefone))
+		} else if (!tipoServicoId.equals(other.tipoServicoId))
 			return false;
 		return true;
-	}
-	public void setClTipo(String clTipo) {
-		this.clTipo = clTipo;
-	}
-		
+	}		
 }

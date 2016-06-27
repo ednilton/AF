@@ -4,7 +4,7 @@ package br.pucgoias.af.persistencia;
 
 /**
  * Interface que define as operacoes da camada de persistencia de Pessoa
- * @author Gilcimar, Ednilton
+ * @author Ednilton
  *
  */
 //public interface CidadeDAO extends GenericoDAO<Cidade, Integer> {

@@ -1,4 +1,4 @@
-package br.pucgoias.af.entidade;
+	package br.pucgoias.af.entidade;
 
 import java.io.Serializable;
 
@@ -36,16 +36,15 @@ public class Telefone implements Serializable {
 	
 	@ManyToOne(fetch=FetchType.LAZY)
 	@JoinColumn(name="pesId", referencedColumnName="pesId", nullable=false)
-	private Servicos pessoa;
+	private Pessoa pessoa;
 	
-	public Servicos getPessoa() {
+	public Pessoa getPessoa() {
 		return pessoa;
 	}
-	public void setPessoa(Servicos pessoa) {
+	public void setPessoa(Pessoa pessoa) {
 		this.pessoa = pessoa;
 	}
 
-	
 	public Integer getTelId() {
 		return telId;
 	}

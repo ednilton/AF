@@ -6,7 +6,7 @@ import java.util.List;
 import br.pucgoias.af.util.AfException;
 /**
  * Interface que define as operacoes da camada de persistencia generica
- * @author Gilcimar, Ednilton
+ * @author Ednilton
  *
  */
 public interface GenericoDAO<T, ID extends Serializable> {

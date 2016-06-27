@@ -13,7 +13,7 @@ import br.pucgoias.af.util.AfException;
 
 /**
  * Classe que define as operacoes da camada de persistencia generica
- * @author Gilcimar, Ednilton
+ * @author Ednilton
  *
  */
 public class GenericoDAOImpl<T, ID extends Serializable> implements GenericoDAO<T, ID> {

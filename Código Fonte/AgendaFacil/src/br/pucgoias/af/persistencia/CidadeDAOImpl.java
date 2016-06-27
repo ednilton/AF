@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 /**
  * Classe que define as operacoes da camada de persistencia de Pessoa
- * @author Gilcimar, Ednilton
+ * @author Ednilton
  *
  */
 //@Repository
